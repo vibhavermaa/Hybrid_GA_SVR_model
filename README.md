@@ -12,7 +12,7 @@ Here, for all i, fi=(-0.5,0.5) where i = 1 to n and gamma = (0.1 , 1), epsilon =
 Each chromosomes is the set of (n+3) values that we have generated randomly from the given range of values.
 
 
-### fi = (-0.5,0.5), if  fi < 0 , the feature fi is rejected
+### fi = (-0.5,0.5), if  fi < 0 , the feature fi is rejected.
 ###                  if fi > 0 , feature fi is selected for training the SVR model.
                  
    
