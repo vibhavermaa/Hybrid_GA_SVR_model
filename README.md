@@ -1,10 +1,12 @@
-# Hybrid_GA_SVR_model
+## Hybridized GA_SVR Model
 
 Given a dataset with n number of features, I want to select thoses feature subset which will, after trained on SVR model give me better estimates. 
 
 To apply genetic algorithm in this problem, we first have to create population, which is a set of chromosomes. Each chromosomes is structured as 
 
-### chromosome = [f1,f2,...,fn, C,gamma,epsilon] 
+
+### Chromospmes Structure:
+chromosome = [f1,f2,...,fn, C,gamma,epsilon] 
 
 where f1,f2...fn represents each feature of the dataset and rest are SVR hyper parameters gamma, epsilon and C.
 
